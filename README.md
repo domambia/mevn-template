@@ -4,31 +4,44 @@ MongoDB, Express, Vue.js and Node.js template, for your next applicaiton
 
 ## Getting Started
 
-These instructions will get you a copy of this template up and run the test provided on your local machine.  Continue reading to have an understanting on how to set it up and also to customize it for better ussage with you next MongoDB, Express, Vue.js and Node.js application
+These instructions will get you a copy of this template up and run the test provided on your local machine. Continue reading to have an understanting on how to set it up and also to customize it for better ussage with you next MongoDB, Express, Vue.js and Node.js application
 
 ### Prerequisites
 
-You need to have ```node.js``` installed and knowledge of both express, mongodb, vuejs and nodejs. 
-
+You need to have `node.js` installed and knowledge of both express, mongodb, vuejs and nodejs.
 
 ### Installing
+
 Running the application on your local machine.
 
-``` 
+```
 git clone https://github.com/domambia/mevn-template.git <app-name>
 ```
 
 #### Installing required packages
+
 ```
 $ cd <app-name>
 $ npm install # to install packages
 $ cd client && npm install # to install the package for the *vue* application
 $ npm run build # this will build you vue application
+```
+
+Create a file \*_.env_ and copy the details of the _.env.example_ file and modify the value of variable
+
+```
+DB_PROD="" # your poduction URL
+DB_LOCAL=""  # your poduction URL
+PORT=3000 # your port number
+```
 
 #run appliction
+
+```
 $ cd ..
 $ npm run start:dev
 ```
+
 - Visit your test applicion at [Test](http://localhost:3000);
 
 ```
@@ -43,7 +56,7 @@ End with an example of getting some data out of the system or using it for a lit
 * [MongoDB](https://mongoosejs.com/) - Mongodb Object Modeling for node.js
 
 ## Contributing
-.... 
+....
 
 
 ## Authors
@@ -53,4 +66,4 @@ End with an example of getting some data out of the system or using it for a lit
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+```
