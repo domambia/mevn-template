@@ -1,0 +1,40 @@
+{
+  "name": "mevn-stack",
+  "version": "1.0.0",
+  "description": "The MEVN FULLSTACK template",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "nbd server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domambia/mevn-template.git"
+  },
+  "keywords": [
+    "mevn",
+    "mevn",
+    "template",
+    "mevn-fullstack",
+    "templates",
+    "node.js and vue.js"
+  ],
+  "author": "Omambia M. Dauglous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domambia/mevn-template/issues"
+  },
+  "homepage": "https://github.com/domambia/mevn-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.3"
+  }
+}
